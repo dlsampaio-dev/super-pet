@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+    background: #F8D629;
+}
+
+.topo {
+    margin-top: 57px;
+}
+
+.logo-text {
+    font-weight: 800;
+    font-size: 30px;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 65px;
+    margin-right: 140px;
+    text-shadow: 8px 4px 4px to rgba(0, 4, 4, 0);
+    ;
+}
+
+.links-menu {
+    display: inline-block;
+
+}
+
+.link {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.link:hover {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.corpo {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 80px;
+    margin-left: 65px;
+    margin-right: 65px;
+    
+}
+
+.descrição {
+    margin: auto 0;
+}
+
+h1 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.descrição p {
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 32px;
+    width: 600px;
+}
+
+.agendar {
+    font-family: "Roboto";
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 30px;
+    background: #000000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 27px 10px;
+    width: 259px;
+    height: 84px;
+    box-shadow: gray 5px 5px;
+
+    display: block;
+}
+
+.agendar:hover {
+    color: #F8D629;
+    text-decoration: underline;
+}
